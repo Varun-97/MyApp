@@ -77,3 +77,20 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+## Components
+
+1. **HomeList**: Fetches and displays a list of homes.
+2. **HomeDetails**: Fetches and displays detailed information about a selected home and provides an "Unlock" button.
+
+## Usage
+
+### Home List
+
+After logging in, the user will see a list of homes. Each home card displays the address, image, and a brief description. Tapping on a home card navigates to the Home Details screen.
+
+### Home Details
+
+The Home Details screen shows detailed information about the selected home. The "Unlock" button will be visible if the user's current location is within 30 meters of the home. Tapping the "Unlock" button simulates an API call and displays a success or error message based on the response.
+
+## Error Handling
