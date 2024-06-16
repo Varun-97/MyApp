@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "address": "123 Main St",
+    "image": "https://via.placeholder.com/150",
+    "description": "A beautiful single-family home."
+  },
+  {
+    "id": 2,
+    "address": "456 Elm St",
+    "image": "https://via.placeholder.com/150",
+    "description": "A modern apartment in the city."
+  },
+  {
+    "id": 3,
+    "address": "789 Oak St",
+    "image": "https://via.placeholder.com/150",
+    "description": "A cozy cottage in the countryside."
+  }
+]
